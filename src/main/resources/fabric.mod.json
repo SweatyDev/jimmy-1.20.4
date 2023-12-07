@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "jimmy",
+	"version": "${version}",
+	"name": "jimmy",
+	"description": "Have you got no friends? Look no further - Jerry is here!\n\nplease send help.",
+	"authors": [
+		"Jimmy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/jimmy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jimmy.jimmy.Jimmy"
+		],
+		"client": [
+			"net.jimmy.jimmy.JimmyClient"
+		],
+		"fabric-datagen": [
+			"net.jimmy.jimmy.JimmyDataGenerator"
+		]
+	},
+	"mixins": [
+		"jimmy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
