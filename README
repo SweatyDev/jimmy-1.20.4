@@ -1,0 +1,49 @@
+THE JIMMY MOD - YOU'LL NEVER HAVE TO BE ALONE EVER, EVER, EVER, EVER, EVER AGAIN!
+
+Mod Icon - C:\Users\Peter\Desktop\MC Projects\jimmy-1.20.4\src\main\resources\assets\jimmy\icon.png
+
+Mobs:
+	Jerry:
+		- Follows around the player. When not in sight and 20-30 blocks away from player, it will teleport to a location near them and continue to follow.
+		- Passive mob unless angry (hostile).
+		- Has a "happiness" value.
+			- If above 75 happiness, it will give the player gifts and be nice.
+			- If it reaches 0, Jerry gets put into a permenant "Angry" state, where the player is sent to "The Shadow Realm".
+			- When angry, it will be hostile. Also causes yrreJ to become hostile.
+			- When angry, if the player dies in The Shadow Realm, the game will crash and the world save will be deleted.
+		- Offers "tips".
+			- These tips will usually save the player from imminent death, such as staying away from caves filled with scary creatures.
+		- Jerry will sometimes prank the player, making Jerry happy.
+		- The longer you spend on the world, the harder it is to keep Jerry happy.
+
+	yrreJ:
+		- Common mob found in the Shadow Realm.
+		- Hostile if Jerry is angry.
+			- If above 75 happiness, gives the players corrupted gifts.
+		- Emits reversed+pitched Enderman sounds.
+		- Very fast. Uses fists as weapon.
+		- When killed disappears in a cloud of smoke, calling others to the area of death (like calling reinforcements).
+		- Will unaggro after 10 seconds of broken sight.
+
+	derutorT:
+		- When the player does events like sleeping near villagers, the villagers have a chance to become derutorT.
+		- Neutral, drops Sinew, which can be used to craft some items (?).
+			- Only hostile when seen by the player.
+		- Emits a painful scream and similar sounds.
+		- Will try to lurk in darker areas.
+
+Items:
+	- Jerry's Favourite Snack. Obtained by killing villagers, gives Jerry +10 happiness. If eaten causes nausea and hunger.
+	- rewolF. A corrupted flower that has a small chance to spawn yrreJ when placed.
+	- Jerry Spawn Egg - Spawns a new Jerry.
+
+
+Achievements:
+
+- FUN FUN FUN! - Join a world with Jerry installed.
+
+- You really fucked up. - Anger Jerry.
+
+- Eternal Banishment - Beat the game and banish Jerry to the Shadow Realm.
+
+- I luv you <3 - Beat the game without banishing Jerry to the Shadow Realm. (Keep him above 75% mood for the entire playthrough?)
